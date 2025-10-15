@@ -31,6 +31,7 @@ function App() {
   },[password]);
 
   useEffect(()=>{
+    console.log("password generator called");
     passwordGenerator();
   },[length, number, symbol, passwordGenerator]);
 
